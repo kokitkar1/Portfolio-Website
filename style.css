@@ -127,6 +127,13 @@ section .title::after{
     color: #0c0c0b;
 }
 
+.myicon a{
+    opacity: 1;
+}
+
+.myicon a:hover{
+    opacity: 0.3;
+}
 /* menu btn styling */
 .menu-btn{
     color: #fff;
@@ -197,6 +204,7 @@ section .title::after{
     color: rgb(33, 203, 230);
     font-weight: 500;
 }
+
 .home .home-content a{
     display: inline-block;
     background: rgb(191, 179, 48);
