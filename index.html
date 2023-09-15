@@ -310,8 +310,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    
-                    <form method="POST" data-netlify="true">
+                        <form name="contact" method="POST" data-netlify="true">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
@@ -324,11 +323,11 @@
                             <input type="text" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea name="Message" id="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
-                        <div class="button-area">
-                            <button type="submit">Send message</button>
-                        </div>
+                        
+                            <button type="submit" class="btn primary-btn">Send message</button>
+                        
                     </form>
                     <!-- <div class="form__wrapper">
                     <form name="contact" method="POST" netlify>
